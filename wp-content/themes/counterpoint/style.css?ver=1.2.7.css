@@ -1,0 +1,43 @@
+/*
+Theme Name: Counterpoint
+Description: Child theme for Origami that sets up two columns of posts
+Author: Evan Grim
+Template: origami
+*/
+
+@import url("../origami/style.css");
+
+.date {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.adellgrim {
+    width: 48%;
+    float: right;
+}
+.sarahharwell {
+    width: 48%;
+    float: left;
+}
+
+body {
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+h1.entry-title,
+h1.archive-title {
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+#logo h1 {
+    font-family: 'Bad Script', cursive, "Terminal Dosis", Arial, Helvetica, Geneva, sans-serif;
+    margin-bottom: 0.3em;
+}
+
+#footer-widgets h2.widgettitle {
+    font-family: 'Bad Script', cursive, "Terminal Dosis", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#blog-archives h2 {
+    font-family: 'Bad Script', cursive, "Terminal Dosis", Arial, Helvetica, Geneva, sans-serif;
+}
